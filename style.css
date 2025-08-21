@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(243, 245, 248);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(249, 249, 250);
+    text-align: center;
+}
+
+.chamada {
+    background: rgb(60, 14, 109);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* evita quebrar feio em telas pequenas */
+    gap: 40px;
+}
+
+.chamada-texto {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.categoria {
+    padding: 20px;
+}
+
+.categoria h2 {
+    margin-bottom: 10px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    height: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);
+}
